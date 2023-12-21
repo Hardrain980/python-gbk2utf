@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gbk2utf"
+version = "1.0"
+authors = [
+  { name="Leo", email="hardrain980@protonmail.com" },
+]
+description = "Convert file in GBK encoding into UTF-8"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/leo9800/gbk2utf"
+"Bug Tracker" = "https://github.com/leo9800/gbk2utf/issues"
